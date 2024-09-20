@@ -1,0 +1,38 @@
+.App {
+  text-align: left; /* Aligns text to the left */
+  height: 100vh; /* Ensure the app takes full viewport height */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Sets the font to Helvetica Neue with fallbacks */
+  
+  
+
+.App-header {
+  background-size: cover; /* Make sure the background image covers the whole page */
+  background-position: center; /* Centers the background image */
+  min-height: 100vh; /* Ensure the header takes full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically centers the content */
+  padding-left: 20px; /* Adds some padding to the left */
+  color: rgb(82, 86, 161);
+ 
+}
+
+p {
+  font-size: calc(10px + 2vmin); /* Responsive font size */
+  color: rgba(208, 225, 109, 0.973); /* Change this to whatever color you want */
+  padding-top: 5px; 
+padding-bottom: 300px; 
+padding-left: 200px; 
+padding-right: 500px;
+text-align: justify;
+
+
+}
+h1{
+  font-size: calc(20px + 2vmin); /* Responsive font size */
+  color: rgba(208, 225, 109, 0.973); /* Change this to whatever color you want */
+  padding-top: 100px; 
+
+padding-left: 200px; 
+}
+}
